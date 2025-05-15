@@ -5,6 +5,9 @@ This project focuses on cleaning and preparing pharmacy patient and medication d
 
 > Note: The Microsoft Access `.accdb` file is not included in this repository. Screenshots, cleaned datasets, and SQL queries are provided to demonstrate the project work.
 
+## Project Status
+This project is an initial demonstration of my skills in data cleaning, database management, and reporting using Excel and Access. It is currently a basic example and will be expanded upon to include additional datasets, more complex queries, and advanced reporting features as I continue to develop the project.
+
 ## Tools Used
 - Microsoft Excel 2021
 - Microsoft Access 2021
@@ -28,7 +31,7 @@ This project focuses on cleaning and preparing pharmacy patient and medication d
 - `/screenshots/` — Screenshots of database structure, queries, and results.
 - `/queries/` — Sample Access SQL queries.
 
-## Key Queries
+## Example Queries
 ```sql
 SELECT p.FIRST & ' ' & p.LAST AS PatientName, COUNT(m.CODE) AS MedCount
 FROM Patients p
