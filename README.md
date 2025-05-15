@@ -28,10 +28,6 @@ This project focuses on cleaning and preparing pharmacy patient and medication d
 - `/screenshots/` — Screenshots of database structure, queries, and results.
 - `/queries/` — Sample Access SQL queries.
 
-## Sample Screenshots
-![Relationships Diagram]("C:\Users\Boc22\Desktop\Screenshots of Access Database\Screenshot of Table Relationship.PNG")
-![Query Example]("C:\Users\Boc22\Desktop\Screenshots of Access Database\Screenshot of SQL Query 1.PNG")
-
 ## Key Queries
 ```sql
 SELECT p.FIRST & ' ' & p.LAST AS PatientName, COUNT(m.CODE) AS MedCount
